@@ -49,14 +49,22 @@ header
   background-color: white;
 }
 
- #s1, #s2
+ #s1
 {
     background-color: #FFFFFF;
   color: Black;
   
 }
+
+#s2
+{
+  background-color: black;
+    color: white;
+}
+
 footer
 {
+  height :20px;
   background-color: white;
 }
 
@@ -90,7 +98,7 @@ nav{
     
 }
 li{
-    padding: 15px 10px 5px 50px; /* dá um respiro dentro dos links */
+    padding: 100px 20px 5px 50px; /* dá um respiro dentro dos links */
 }
 a{ 
     text-decoration: none; /* remove o sublinhado */
