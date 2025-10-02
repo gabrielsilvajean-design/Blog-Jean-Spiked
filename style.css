@@ -27,7 +27,7 @@ body {
 	line-height: 1;
   text-align:center;
   background-color: black;
-  font-size: 150%;
+  font-size: 250%;
 }
 ol, ul {
 	list-style: none;
@@ -89,7 +89,7 @@ nav{
     display: flex; /* Permite organizar os elementos HTML*/
     justify-content: space-between;
     background-color:#000000;
-    padding: 10px 10px;
+    padding: 1px 1px;
 }
 .logo{
     font-size: 1.8rem;
