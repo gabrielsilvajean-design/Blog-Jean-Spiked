@@ -51,15 +51,21 @@ header
 
  #s1
 {
-    background-color: #FFFFFF;
-  color: Black;
+    background-color: black;
+  color: white;
   
 }
 
 #s2
 {
-  background-color: black;
+eround-color: black;
     color: white;
+}
+
+#filmes
+{
+  background-color: black;
+  color: black;
 }
 
 footer
@@ -111,5 +117,10 @@ body {
 
 nav {
     font-family: 'Jacquard 24', sans-serif;
+}
+
+#vinyl-gallery .title {
+  color: white;
+  font-family: 'Jacquard 24', sans-serif;
 }
 
