@@ -1,122 +1,46 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-  text-align:center;
-  background-color: black;
-  font-size: 250%;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-header
-{
-  background-color: white;
-}
-
- #s1
-{
-    background-color: black;
-  color: white;
-  
-}
-
-#s2
-{
-eround-color: black;
-    color: white;
-}
-
-#filmes
-{
-  background-color: black;
-  color: black;
-}
-
-footer
-{
-  height :20px;
-  background-color: white;
-}
-
-
-
-
-
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.menu{
-    display: flex;
-    justify-content: center ;
-    flex-direction: row;
-    list-style: none; 
-    color:black;
-   
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 1px 1px;
-background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#111111 100%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
-
-}
-.logo{
-    font-size: 1.8rem;
-    color: black;
-    font-weight: bold;
-    
-}
-li{
-    padding: 100px 20px 5px 50px; /* dá um respiro dentro dos links */
-}
-a{ 
-    text-decoration: none; /* remove o sublinhado */
-    color: rgb(255,255,255);
-}
-
-body, nav, #vinyl-gallery .title {
-    font-family: 'Jacquard 24', sans-serif;
-}
-#rotatingskull
-{
-  padding: 500px;
-}
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>     
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+  </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="sketch.js">
+    <title>Jean Lindo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="https://i.ibb.co/NnpcGyd8/Jean-spiked.png" width="300" height="250"> </div>
+            <ul class="menu">
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#">Artes</a></li>
+                <li><a href="#studio">Studio</a></li>
+                <li><a href="#">Albuns</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <script>
+            console.log("Olá Mundo");
+        </script>
+        <section id="s1">
+          Meu nome é Jean, esse aqui é meu blog feito totaltemente por mim haha
+        </section>
+      <section id="s2">
+        <img src="https://i.pinimg.com/736x/9d/5e/ea/9d5eea3a093db7e9df7e0a8444d277a5.jpg" width="300" height="300">
+      </section>
+        <section id="filmes">
+        </section>
+        <section id="studio">
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ3p6b3hub3dhYWRldm53OTZkcmhhNXh2ZjZ0emYwN3hhczRuaTlhbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohhwfAa9rbXaZe86c/200w.gif">
+             <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ3p6b3hub3dhYWRldm53OTZkcmhhNXh2ZjZ0emYwN3hhczRuaTlhbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohhwfAa9rbXaZe86c/200w.gif">
+        </section>
+    </main>
+    <footer>
+        <p> </p>
+    </footer>
+</body>
+</html>
