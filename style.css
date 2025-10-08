@@ -44,7 +44,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header,
+header
 {
  height: px;
 }
@@ -130,24 +130,57 @@ main {
             /* Propriedade principal para a animação */
             animation: girar 4s infinite linear
         }
-.logo
-{
-  display: inline;
-  position: relative;
-  right: 330pt;
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    border: 4px solid white;
+
 }
 
-.imagem-giratoria
-{
-  position: relative;
-  left: 20pt;
-  top: 50pt;
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0px;
 }
 
-.menu
-{
-  border: 4px solid white;
+
+.logo img {
+    width: 300px;
+    height: auto; 
+    display: block;
 }
+
+
+.imagem-giratoria-icone {
+    width: 100px;
+    height: 100px;
+    animation: girar 4s infinite linear;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none; 
+    color: black;
+    border: 4px solid white; 
+}
+
+li {
+
+    padding: 10px 20px; 
+}
+
+
+
+
 
 
 
