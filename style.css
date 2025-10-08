@@ -123,8 +123,8 @@ main {
             }
         }
         .imagem-giratoria {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             
             /* Propriedade principal para a animação */
             animation: girar 4s infinite linear
@@ -138,6 +138,12 @@ main {
 {
   position: relative;
   left: 20pt;
-  top: 32pt;
+  top: 50pt;
 }
+
+.menu
+{
+  border: 3px solid white;
+}
+
 
