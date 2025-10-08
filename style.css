@@ -44,7 +44,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header, #logo
+header,
 {
  height: px;
 }
@@ -134,7 +134,7 @@ main {
 {
   display: inline;
   position: relative;
-  right: 125pt;
+  right: 230pt;
 }
 
 .imagem-giratoria
