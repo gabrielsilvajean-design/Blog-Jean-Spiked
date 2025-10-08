@@ -131,16 +131,8 @@ main {
             animation: girar 4s infinite linear
         }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 20px;
-    background-color: black;
-    border: 4px solid white;
 
-}
+
 
 
 .logo-area {
@@ -178,6 +170,20 @@ li {
     padding: 10px 20px; 
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+
+  nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    border: 4px solid white;
+    box-sizing: border-box;
+}
 
 
 
