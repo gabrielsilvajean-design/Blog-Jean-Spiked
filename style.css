@@ -132,6 +132,8 @@ main {
 .logo
 {
   display: inline;
+  position: relative;
+  right: 125pt;
 }
 
 .imagem-giratoria
@@ -145,5 +147,8 @@ main {
 {
   border: 3px solid white;
 }
+
+
+
 
 
