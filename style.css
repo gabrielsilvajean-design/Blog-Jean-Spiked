@@ -107,9 +107,9 @@ a{
     color: rgb(255,255,255);
 }
 
-body, nav,
+body, nav, #s1
 {
-    font-family: 'revalia-regular', sans-serif;
+   font-family: "Jacquard 24", sans-serif;
 }
 
 main {
