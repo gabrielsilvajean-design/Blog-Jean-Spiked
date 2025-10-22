@@ -130,9 +130,9 @@ a{
     color: rgb(255,255,255);
 }
 
-body, nav, #s
+html
 {
-   font-family: "Jersey 15", sans-serif;
+ font-family: "UnifrakturCook", system-ui;
 }
 
 main {
