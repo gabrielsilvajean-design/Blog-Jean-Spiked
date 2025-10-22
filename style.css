@@ -132,7 +132,7 @@ a{
 
 body, nav, #s
 {
-   font-family: "Jacquard 24", sans-serif;
+   font-family: "Jersey 15", sans-serif;
 }
 
 main {
@@ -242,6 +242,10 @@ html, body {
 
 }
 
+.tsoidesc
+{
+  margin-top: 50px;
+}
 
 
 
