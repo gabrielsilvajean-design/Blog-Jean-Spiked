@@ -251,14 +251,13 @@ html, body {
 .menu-principal li
 {
   display: inline;
+  margin: 0 20px;
 }
 
 .ds
 {
+  width: 500px;
+    height: 500px; 
     display: block;
+    align-items: center; 
 }
-
-
-
-
-
