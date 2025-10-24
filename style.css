@@ -253,6 +253,13 @@ html, body {
   display: inline;
 }
 
+.ds
+{
+  width: 500px;
+    height: 500; 
+    display: block;
+}
+
 
 
 
